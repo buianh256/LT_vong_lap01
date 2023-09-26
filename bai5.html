@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<h1>Tính tổng 20 số đầu dãy </h1>
+<script>
+    let n = +prompt();
+    let a = 0;
+    let b = 1;
+    let c;
+    let sum = 0;
+    for (let i = 0; i < n-2 ; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+        sum = sum +c;
+    }
+    document.write(sum +1 );
+</script>
+</body>
+</html>
